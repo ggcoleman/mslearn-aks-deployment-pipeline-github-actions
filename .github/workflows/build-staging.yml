@@ -54,7 +54,6 @@ jobs:
             --create-namespace \
             --atomic \
             --wait \
-            --name staging \
             --namespace staging \
             contoso-website \
             ./contoso-website/templates/ \
