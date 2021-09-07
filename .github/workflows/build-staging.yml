@@ -56,6 +56,6 @@ jobs:
             --wait \
             --namespace staging \
             contoso-website \
-            ./contoso-website \
+            ./contoso-website/templates/ \
             --set image.repository=${{ secrets.ACR_NAME }} \
             --set dns.name=${{ secrets.DNS_NAME }}
