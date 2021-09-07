@@ -1,7 +1,7 @@
 name: Build and push the latest build to production
 
 on:
-  create:
+  push:
     tags:
       - 'v*.*.*'
 
