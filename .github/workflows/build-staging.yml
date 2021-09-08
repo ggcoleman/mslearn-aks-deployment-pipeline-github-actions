@@ -43,6 +43,8 @@ jobs:
         run: |
           helm upgrade \
             --install \
+            --atomic \
+            --wait \
             --create-namespace \
             --namespace staging \
             contoso-website \
