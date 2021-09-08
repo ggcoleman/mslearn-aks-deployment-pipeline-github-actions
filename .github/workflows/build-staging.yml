@@ -44,8 +44,6 @@ jobs:
           helm upgrade \
             --install \
             --create-namespace \
-            --atomic \
-            --timeout 0m20s \
             --namespace staging \
             contoso-website \
             ./kubernetes/contoso-website \
